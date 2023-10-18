@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <TableRow  android:padding="10dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pavadinimas" />
+        <EditText
+            android:id="@+id/editText_pavadinimas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="Pavadinimas"
+            />
+    </TableRow>
+
+    <TableRow  android:padding="5dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Fakultetas" />
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteText_fakultetas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="Pasirinkite fakultetą" />
+    </TableRow>
+
+    <TableRow  android:padding="5dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sudėtingumas" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3">
+            <RatingBar
+                android:id="@+id/raitingStar_sudetingums"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="4"
+                android:stepSize="1"
+            />
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow  android:padding="5dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Diena" />
+        <Spinner
+            android:id="@+id/spinner_diena"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />
+    </TableRow>
+
+    <TableRow  android:padding="5dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Laikas" />
+        <TimePicker
+            android:id="@+id/timePicker_laikas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="3"
+            android:timePickerMode="spinner"/>
+    </TableRow>
+
+    <TableRow  android:padding="5dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Registruotis"/>
+        <Switch
+            android:id="@+id/switch_registruotis"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:checked="true"
+            />
+    </TableRow>
+
+    <TableRow  android:padding="5dp" >
+        <Button
+            android:id="@+id/button_saugoti"
+            android:layout_height="wrap_content"
+            android:text="Saugoti"
+            />
+    </TableRow>
+    <TableRow  android:padding="5dp" >
+        <Button
+            android:layout_marginTop="50dp"
+            android:id="@+id/button_goToLab4"
+            android:layout_height="wrap_content"
+            android:text="Move to Lab 4"
+            android:layout_weight="1"/>
+    </TableRow>
+</TableLayout>

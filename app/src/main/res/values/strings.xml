@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">UniProject</string>
+
+    <string-array name="Fakultetai">
+        <item>AGAI - Antano Gustaičio aviacijos institutas</item>
+        <item>AIF - Aplinkos inžinerijos fakultetas</item>
+        <item>AF - Architektūros fakultetas</item>
+        <item>EF - Elektronikos fakultetas</item>
+        <item>FMF - Fundamentinių mokslų fakultetas</item>
+        <item>KIF - Kūrybinių industrijų fakultetas</item>
+        <item>MF - Mechanikos fakultetas</item>
+        <item>SF - Statybos fakultetas</item>
+        <item>TIF - Transporto inžinerijos fakultetas</item>
+        <item>VVK - Verslo vadybos fakultetas</item>
+    </string-array>
+
+    <string-array name="SavaiteDienos">
+        <item>Pirmadienis</item>
+        <item>Antradienis</item>
+        <item>Trečiadienis</item>
+        <item>Ketvirtadienis</item>
+        <item>Penktadienis</item>
+        <item>Šeštadienis</item>
+        <item>Sekmadienis</item>
+    </string-array>
+
+    <string-array name="Lab5randomText">
+        <item>Labas rytas</item>
+        <item>Ačiū labai</item>
+        <item>Gražus vaizdas</item>
+        <item>Mėgstu mėnesį</item>
+        <item>Šiltas oras</item>
+        <item>Maisto restoranas</item>
+        <item>Tavo veidas </item>
+        <item>Puiki diena</item>
+        <item>Gerai jautiesi</item>
+        <item>Knyga skaitymui</item>
+        <item>Mano automobilis</item>
+        <item>Geriausias draugas</item>
+        <item>Stovykla gamtoje</item>
+        <item>Tavo namai</item>
+        <item>Puikus maistas</item>
+        <item>Saulėlydis plūdimyje</item>
+        <item>Tavo šeima</item>
+        <item>Lengva kelionė</item>
+        <item>Sveika mityba</item>
+        <item>Vasaros atostogos</item>
+    </string-array>
+
+
+</resources>
