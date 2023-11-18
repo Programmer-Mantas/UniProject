@@ -57,7 +57,7 @@ class Lab7main : AppCompatActivity() {
         }
 
         binding.buttonGotoLab8.setOnClickListener {
-            val intent = Intent(this,Lab8Main::class.java)
+            val intent = Intent(this,Lab9Main::class.java)
             startActivity(intent)
         }
     }
